@@ -1,0 +1,39 @@
+/* general roules */
+*{
+  box-sizing: border-box;
+  margin: auto;
+}
+
+/* headre's roules */
+
+header{
+  background-color: pink;
+  height: 10vh;
+  margin: 0 15% 15px;
+}
+
+/* main's roules */
+
+section{
+  margin: 15px 15% 0;
+}
+
+section:first-child{
+  background-color: yellow;
+  height: 35vh;
+}
+
+section:last-child{
+  background-color: blue;
+  height: 45vh;
+}
+
+
+
+/* footer's roules */
+
+footer{
+  background-color: violet;
+  height: 5vh;
+  margin: 3px 15%;
+}
