@@ -23,44 +23,51 @@ section:first-child{
   height: 35vh;
 }
 
-section:last-child{
+/* section:last-child{
   background-color: blue;
   height: 45vh;
-}
+} */
 
 .intestazione{
-  width: 100%;
-  height: 15%;
+  margin-bottom: 0;
+  height: 70px;
   background-color: lightblue;
 }
 
-.riga{
-  width: 100%;
-  height: 85%;
+.clearfix::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.clearfix{
+  background-color: blue;
+  padding: 0;
+  margin-top: 0;
 }
 
 .sinistra{
   float: left;
-  height: 80%;
-  width: 25%;
-  background-color: lightblue;
-  margin: 2% 0 5% 0;
+  width: 20%;
+  height: 37vh;
+  background: lightblue;
+  margin-top: 1%;
 }
 
 .centro{
   float: left;
-  height: 80%;
-  width: 46%;
-  background-color: lightblue;
-  margin: 2% 2% 5% 2%;
+  width: 54%;
+  height: 37vh;
+  background: lightblue;
+  margin: 1% 3% 0;
 }
 
 .destra{
-  float: right;
-  height: 80%;
-  width: 25%;
-  background-color: lightblue;
-  margin: 2% 0 5% 0;
+  float: left;
+  width: 20%;
+  height: 37vh;
+  background: lightblue;
+  margin-top: 1%;
 }
 
 /* footer's roules */
